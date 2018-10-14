@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        android:iconTint="@color/grey" />
+
+    <item
+        android:id="@+id/navigation_invoice"
+        android:icon="@drawable/invoice_o"
+        android:title="@string/title_invoice"
+        android:iconTint="@color/grey"/>
+
+    <item
+        android:id="@+id/navigation_pay"
+        android:icon="@drawable/pay_o"
+        android:title="@string/title_pay"
+        android:iconTint="@color/grey"/>
+
+    <item
+        android:id="@+id/navigation_investment"
+        android:icon="@drawable/investment_o"
+        android:title="@string/title_investment"
+        android:iconTint="@color/grey"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_o"
+        android:title="@string/title_settings"
+        android:iconTint="@color/grey"/>
+
+</menu>
