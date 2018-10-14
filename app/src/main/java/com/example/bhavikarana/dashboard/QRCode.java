@@ -79,8 +79,11 @@ public class QRCode extends AppCompatActivity{
                     databaseReference.child(id).setValue(artist);
 
 
+                    startActivity(new Intent(QRCode.this, Dashboard.class));
+                    Toast.makeText(QRCode.this, "MerchantName: "+obj.getString("merchant_name")+"\n Cash"+obj.getString("cash"), Toast.LENGTH_LONG).show();
 
-                        //textViewAddress.setText(obj.getString("address"));
+
+                    //textViewAddress.setText(obj.getString("address"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                     //if control comes here
